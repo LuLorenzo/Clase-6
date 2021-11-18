@@ -6,7 +6,7 @@ const yerbas = [{ id: 1,  yerba: "rosamonte", precio: 154},
 const buscarAmanda = yerbas.find(yerba => yerba.id === 2); 
 console.log(buscarAmanda);
 
-const baratos = yerbas.filter(producto => producto.precio < 200); 
+const baratos = yerbas.filter(yerba => yerba.precio < 200); 
 console.log(baratos);
 
 const aumentos = yerbas.map(yerba => yerba.precio += 45);
